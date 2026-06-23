@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Hermes compiled — Dhanvi</title>
+<title>Compiled calendar</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <style>
   :root {
@@ -31,7 +31,6 @@
          min-height: calc(100vh - 60px); }
   @media (max-width: 900px) { main { grid-template-columns: 1fr; } }
 
-  /* week grid */
   .week { padding: 18px 22px; border-right: 1px solid var(--border); }
   .week h2 { margin: 0 0 8px; font-size: 14px; font-weight: 500;
              color: var(--muted); }
@@ -61,11 +60,8 @@
            border-radius: 4px; padding: 3px 5px; font-size: 11px;
            overflow: hidden; color: #0b0d12; z-index: 1;
            box-shadow: 0 1px 0 rgba(0,0,0,0.2); cursor: default; }
-  .event .esrc { display: block; font-size: 9px; opacity: 0.7;
-                 text-transform: uppercase; letter-spacing: 0.04em; }
   .event .etime { display: block; font-size: 10px; opacity: 0.75; }
 
-  /* agenda */
   .agenda { padding: 18px 22px; overflow-y: auto; max-height: calc(100vh - 60px); }
   .agenda h2 { margin: 0 0 8px; font-size: 14px; font-weight: 500;
                color: var(--muted); }
@@ -81,11 +77,6 @@
   .agenda .item .time { font-variant-numeric: tabular-nums;
                         color: var(--muted); min-width: 88px; }
   .agenda .item .body .title { font-weight: 500; }
-  .agenda .item .body .meta { color: var(--muted); font-size: 11px; }
-  .agenda .item .body .src { font-size: 9px; opacity: 0.7;
-                             text-transform: uppercase; letter-spacing: 0.04em;
-                             color: var(--muted); }
-
 
   .empty { padding: 40px; text-align: center; color: var(--muted); }
 </style>
@@ -93,7 +84,7 @@
 <body>
 
 <header>
-  <h1>Hermes compiled <span class="meta" id="sub"></span></h1>
+  <h1>Compiled calendar <span class="meta" id="sub"></span></h1>
   <div class="nav">
     <span class="meta" id="range"></span>
     <button id="prev">‹ prev</button>
@@ -114,17 +105,12 @@
   </aside>
 </main>
 
-
-
 <script>
 const PX_PER_HOUR = 70;
 let DATA = null;
-let VIEW_DATE = new Date();   // any date in the visible week
+let VIEW_DATE = new Date();
 
-function isoToLocal(iso) {
-  const d = new Date(iso);
-  return d;
-}
+function isoToLocal(iso) { return new Date(iso); }
 function fmtTime(d) {
   return d.toLocaleTimeString([], {hour: "2-digit", minute: "2-digit", hour12: false});
 }
@@ -132,7 +118,6 @@ function fmtDateLabel(d) {
   return d.toLocaleDateString([], {weekday: "short", month: "short", day: "numeric"});
 }
 function startOfWeek(d) {
-  // week starts Sunday in the US grid. (Mon is also fine; using Sun to match google's week view by default.)
   const x = new Date(d);
   x.setHours(0,0,0,0);
   x.setDate(x.getDate() - x.getDay());
@@ -143,17 +128,11 @@ function sameDay(a, b) {
   return a.getFullYear()===b.getFullYear() && a.getMonth()===b.getMonth() && a.getDate()===b.getDate();
 }
 
-function renderLegend(feeds) {
-  const el = document.getElementById("legend");
-  el.innerHTML = feeds.map(f => `<span><span class="dot" style="background:${f.color}"></span>${f.label}</span>`).join("");
-}
-
 function renderHeader() {
   const start = startOfWeek(VIEW_DATE);
   const end   = addDays(start, 6);
   document.getElementById("weekrange").textContent =
     `${start.toLocaleDateString([], {month: "short", day: "numeric"})} – ${end.toLocaleDateString([], {month: "short", day: "numeric", year: "numeric"})}`;
-  document.getElementById("range").textContent = " ";
   document.getElementById("sub").textContent =
     ` · ${DATA.event_count} events · generated ${new Date(DATA.generated_at).toLocaleString()}`;
 }
@@ -171,19 +150,17 @@ function renderGrid() {
   for (let h = 0; h < 24; h++) {
     html += `<div class="hour">${String(h).padStart(2,"0")}:00</div>`;
     for (let i = 0; i < 7; i++) {
-      html += `<div class="day-col" data-day-offset="${i}" data-hour="${h}"></div>`;
+      html += `<div class="day-col" data-day-offset="${i}"></div>`;
     }
   }
   grid.innerHTML = html;
 
-  // place events
   for (const ev of DATA.events) {
     const s = isoToLocal(ev.start);
     const e = isoToLocal(ev.end);
     const startWeek = startOfWeek(s);
-    const offset = Math.floor((startOfWeek(s).getTime() - start.getTime()) / 86400000);
+    const offset = Math.floor((startWeek.getTime() - start.getTime()) / 86400000);
     if (offset < 0 || offset > 6) continue;
-    // skip if event starts before week or after week+1day boundary
     const weekEnd = addDays(start, 7);
     if (s >= weekEnd) continue;
     const col = grid.querySelector(`.day-col[data-day-offset="${offset}"]`);
@@ -191,35 +168,30 @@ function renderGrid() {
     const startHour = s.getHours() + s.getMinutes()/60;
     let endHour = e.getHours() + e.getMinutes()/60;
     if (endHour <= startHour) endHour = startHour + 0.5;
-    // if event spans midnight into next day, clip to end of this day col
-    const maxEnd = 24;
-    if (endHour > maxEnd) endHour = maxEnd;
+    if (endHour > 24) endHour = 24;
     const top = startHour * PX_PER_HOUR;
-    const height = (endHour - startHour) * PX_PER_HOUR;
-    const color = ev.color;
-    const title = ev.summary;
-    const srcLabel = "event";
+    const height = Math.max(18, (endHour - startHour) * PX_PER_HOUR - 1);
+    const color = ev.color || "#7ab7ff";
     const el = document.createElement("div");
     el.className = "event";
     el.style.top = top + "px";
-    el.style.height = Math.max(18, height - 1) + "px";
+    el.style.height = height + "px";
     el.style.background = color;
     el.style.opacity = "0.92";
-    el.title = `${title}\n${srcLabel}\n${ev.location || ""}`;
-    el.innerHTML = `<span class="esrc">${srcLabel}</span>${title}<span class="etime">${fmtTime(s)}–${fmtTime(e)}</span>`;
+    el.innerHTML = `${ev.summary}<span class="etime">${fmtTime(s)}–${fmtTime(e)}</span>`;
     col.appendChild(el);
   }
 
-  // "now" line
-  if (sameDay(today, start) || (today >= start && today < addDays(start, 7))) {
-    const offset = Math.floor((startOfWeek(today).getTime() - start.getTime()) / 86400000);
+  const now = new Date();
+  if (now >= start && now < addDays(start, 7)) {
+    const offset = Math.floor((startOfWeek(now).getTime() - start.getTime()) / 86400000);
     const col = grid.querySelector(`.day-col[data-day-offset="${offset}"]`);
     if (col) {
-      const now = document.createElement("div");
-      now.className = "now";
-      const startHour = today.getHours() + today.getMinutes()/60;
-      now.style.top = (startHour * PX_PER_HOUR) + "px";
-      col.appendChild(now);
+      const nowLine = document.createElement("div");
+      nowLine.className = "now";
+      const startHour = now.getHours() + now.getMinutes()/60;
+      nowLine.style.top = (startHour * PX_PER_HOUR) + "px";
+      col.appendChild(nowLine);
     }
   }
 }
@@ -236,7 +208,6 @@ function renderAgenda() {
     agenda.innerHTML = '<div class="empty">No events in the next 14 days.</div>';
     return;
   }
-  // group by day
   const groups = {};
   for (const x of events) {
     const key = x.s.toDateString();
@@ -249,15 +220,10 @@ function renderAgenda() {
     const isToday = sameDay(g.date, today);
     html += `<div class="day-group"><h3 class="${isToday ? "today" : ""}">${fmtDateLabel(g.date)}</h3>`;
     for (const x of g.items) {
-      const color = x.ev.color;
-      const srcLabel = "event";
+      const color = x.ev.color || "#7ab7ff";
       html += `<div class="item" style="border-left-color:${color}">
         <div class="time">${fmtTime(x.s)}–${fmtTime(x.e)}</div>
-        <div class="body">
-          <div class="title">${escapeHtml(x.ev.summary)}</div>
-          <div class="src">${escapeHtml(srcLabel)}</div>
-          ${x.ev.location ? `<div class="meta">📍 ${escapeHtml(x.ev.location)}</div>` : ""}
-        </div>
+        <div class="body"><div class="title">${escapeHtml(x.ev.summary)}</div></div>
       </div>`;
     }
     html += "</div>";
@@ -272,11 +238,9 @@ async function init() {
     const r = await fetch("./compiled.json", {cache: "no-store"});
     DATA = await r.json();
   } catch (e) {
-    document.body.innerHTML = `<div class="empty">Could not load compiled.json: ${e}<br><br>
-      Run <code>fetch_google.py</code> in the project dir to generate it.</div>`;
+    document.body.innerHTML = `<div class="empty">Could not load compiled.json: ${e}<br><br>Run publish.py to regenerate.</div>`;
     return;
   }
-  
   renderHeader();
   renderGrid();
   renderAgenda();
