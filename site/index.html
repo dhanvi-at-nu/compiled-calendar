@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Hermes compiled — Dhanvi</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  :root {
+    --bg: #0f1115;
+    --panel: #161a22;
+    --border: #232936;
+    --text: #e6e8ee;
+    --muted: #8a93a4;
+    --accent: #7ab7ff;
+    --today: #ffd166;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text);
+               font: 14px/1.4 -apple-system, "Segoe UI", system-ui, sans-serif; }
+  header { display: flex; align-items: center; justify-content: space-between;
+           padding: 14px 22px; border-bottom: 1px solid var(--border);
+           background: var(--panel); position: sticky; top: 0; z-index: 5; }
+  header h1 { margin: 0; font-size: 16px; font-weight: 600; }
+  header .meta { font-size: 12px; color: var(--muted); }
+  header .nav button { background: transparent; color: var(--text);
+                       border: 1px solid var(--border); border-radius: 6px;
+                       padding: 4px 10px; margin-left: 6px; cursor: pointer; }
+  header .nav button:hover { background: #1f2530; }
+
+  main { display: grid; grid-template-columns: 1.5fr 1fr; gap: 0;
+         min-height: calc(100vh - 60px); }
+  @media (max-width: 900px) { main { grid-template-columns: 1fr; } }
+
+  /* week grid */
+  .week { padding: 18px 22px; border-right: 1px solid var(--border); }
+  .week h2 { margin: 0 0 8px; font-size: 14px; font-weight: 500;
+             color: var(--muted); }
+  .week h2 .range { color: var(--text); }
+  .grid { display: grid; grid-template-columns: 60px repeat(7, 1fr);
+          border: 1px solid var(--border); border-radius: 8px;
+          background: var(--panel); overflow: hidden; }
+  .grid .corner, .grid .day-head, .grid .hour, .grid .day-col {
+    border-right: 1px solid var(--border); border-bottom: 1px solid var(--border);
+  }
+  .grid .corner { background: #0f131a; }
+  .grid .day-head { padding: 6px 4px; text-align: center; font-size: 11px;
+                    color: var(--muted); background: #0f131a; }
+  .grid .day-head.today { color: var(--today); font-weight: 600; }
+  .grid .day-head .dnum { display: block; font-size: 16px; color: var(--text);
+                          font-weight: 500; }
+  .grid .day-head.today .dnum { color: var(--today); }
+  .grid .hour { padding: 2px 4px; text-align: right; font-size: 10px;
+                color: var(--muted); background: #0f131a; height: 70px; }
+  .grid .day-col { position: relative; height: calc(70px * 24); }
+  .grid .day-col .now { position: absolute; left: 0; right: 0; height: 1px;
+                        background: var(--today); z-index: 2; pointer-events: none; }
+  .grid .day-col .now::before { content: ""; position: absolute;
+                                left: -3px; top: -3px; width: 7px; height: 7px;
+                                border-radius: 50%; background: var(--today); }
+  .event { position: absolute; left: 2px; right: 2px;
+           border-radius: 4px; padding: 3px 5px; font-size: 11px;
+           overflow: hidden; color: #0b0d12; z-index: 1;
+           box-shadow: 0 1px 0 rgba(0,0,0,0.2); cursor: default; }
+  .event .esrc { display: block; font-size: 9px; opacity: 0.7;
+                 text-transform: uppercase; letter-spacing: 0.04em; }
+  .event .etime { display: block; font-size: 10px; opacity: 0.75; }
+
+  /* agenda */
+  .agenda { padding: 18px 22px; overflow-y: auto; max-height: calc(100vh - 60px); }
+  .agenda h2 { margin: 0 0 8px; font-size: 14px; font-weight: 500;
+               color: var(--muted); }
+  .agenda .day-group { margin-bottom: 14px; }
+  .agenda .day-group h3 { margin: 0 0 4px; font-size: 12px; font-weight: 500;
+                          color: var(--muted); text-transform: uppercase;
+                          letter-spacing: 0.04em; }
+  .agenda .day-group h3.today { color: var(--today); }
+  .agenda .item { display: flex; gap: 10px; padding: 6px 8px;
+                  border-left: 3px solid var(--accent);
+                  background: var(--panel); border-radius: 4px;
+                  margin-bottom: 4px; }
+  .agenda .item .time { font-variant-numeric: tabular-nums;
+                        color: var(--muted); min-width: 88px; }
+  .agenda .item .body .title { font-weight: 500; }
+  .agenda .item .body .meta { color: var(--muted); font-size: 11px; }
+  .agenda .item .body .src { font-size: 9px; opacity: 0.7;
+                             text-transform: uppercase; letter-spacing: 0.04em;
+                             color: var(--muted); }
+
+
+  .empty { padding: 40px; text-align: center; color: var(--muted); }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Hermes compiled <span class="meta" id="sub"></span></h1>
+  <div class="nav">
+    <span class="meta" id="range"></span>
+    <button id="prev">‹ prev</button>
+    <button id="today">today</button>
+    <button id="next">next ›</button>
+  </div>
+</header>
+
+<main>
+  <section class="week">
+    <div id="legend"></div>
+    <h2>Week of <span class="range" id="weekrange"></span></h2>
+    <div class="grid" id="grid"></div>
+  </section>
+  <aside class="agenda">
+    <h2>Agenda — next 14 days</h2>
+    <div id="agenda"></div>
+  </aside>
+</main>
+
+
+
+<script>
+const PX_PER_HOUR = 70;
+let DATA = null;
+let VIEW_DATE = new Date();   // any date in the visible week
+
+function isoToLocal(iso) {
+  const d = new Date(iso);
+  return d;
+}
+function fmtTime(d) {
+  return d.toLocaleTimeString([], {hour: "2-digit", minute: "2-digit", hour12: false});
+}
+function fmtDateLabel(d) {
+  return d.toLocaleDateString([], {weekday: "short", month: "short", day: "numeric"});
+}
+function startOfWeek(d) {
+  // week starts Sunday in the US grid. (Mon is also fine; using Sun to match google's week view by default.)
+  const x = new Date(d);
+  x.setHours(0,0,0,0);
+  x.setDate(x.getDate() - x.getDay());
+  return x;
+}
+function addDays(d, n) { const x = new Date(d); x.setDate(x.getDate()+n); return x; }
+function sameDay(a, b) {
+  return a.getFullYear()===b.getFullYear() && a.getMonth()===b.getMonth() && a.getDate()===b.getDate();
+}
+
+function renderLegend(feeds) {
+  const el = document.getElementById("legend");
+  el.innerHTML = feeds.map(f => `<span><span class="dot" style="background:${f.color}"></span>${f.label}</span>`).join("");
+}
+
+function renderHeader() {
+  const start = startOfWeek(VIEW_DATE);
+  const end   = addDays(start, 6);
+  document.getElementById("weekrange").textContent =
+    `${start.toLocaleDateString([], {month: "short", day: "numeric"})} – ${end.toLocaleDateString([], {month: "short", day: "numeric", year: "numeric"})}`;
+  document.getElementById("range").textContent = " ";
+  document.getElementById("sub").textContent =
+    ` · ${DATA.event_count} events · generated ${new Date(DATA.generated_at).toLocaleString()}`;
+}
+
+function renderGrid() {
+  const grid = document.getElementById("grid");
+  const today = new Date();
+  const start = startOfWeek(VIEW_DATE);
+  let html = '<div class="corner"></div>';
+  for (let i = 0; i < 7; i++) {
+    const d = addDays(start, i);
+    const isToday = sameDay(d, today);
+    html += `<div class="day-head ${isToday ? "today" : ""}">${d.toLocaleDateString([], {weekday: "short"})}<span class="dnum">${d.getDate()}</span></div>`;
+  }
+  for (let h = 0; h < 24; h++) {
+    html += `<div class="hour">${String(h).padStart(2,"0")}:00</div>`;
+    for (let i = 0; i < 7; i++) {
+      html += `<div class="day-col" data-day-offset="${i}" data-hour="${h}"></div>`;
+    }
+  }
+  grid.innerHTML = html;
+
+  // place events
+  for (const ev of DATA.events) {
+    const s = isoToLocal(ev.start);
+    const e = isoToLocal(ev.end);
+    const startWeek = startOfWeek(s);
+    const offset = Math.floor((startOfWeek(s).getTime() - start.getTime()) / 86400000);
+    if (offset < 0 || offset > 6) continue;
+    // skip if event starts before week or after week+1day boundary
+    const weekEnd = addDays(start, 7);
+    if (s >= weekEnd) continue;
+    const col = grid.querySelector(`.day-col[data-day-offset="${offset}"]`);
+    if (!col) continue;
+    const startHour = s.getHours() + s.getMinutes()/60;
+    let endHour = e.getHours() + e.getMinutes()/60;
+    if (endHour <= startHour) endHour = startHour + 0.5;
+    // if event spans midnight into next day, clip to end of this day col
+    const maxEnd = 24;
+    if (endHour > maxEnd) endHour = maxEnd;
+    const top = startHour * PX_PER_HOUR;
+    const height = (endHour - startHour) * PX_PER_HOUR;
+    const color = ev.color;
+    const title = ev.summary;
+    const srcLabel = "event";
+    const el = document.createElement("div");
+    el.className = "event";
+    el.style.top = top + "px";
+    el.style.height = Math.max(18, height - 1) + "px";
+    el.style.background = color;
+    el.style.opacity = "0.92";
+    el.title = `${title}\n${srcLabel}\n${ev.location || ""}`;
+    el.innerHTML = `<span class="esrc">${srcLabel}</span>${title}<span class="etime">${fmtTime(s)}–${fmtTime(e)}</span>`;
+    col.appendChild(el);
+  }
+
+  // "now" line
+  if (sameDay(today, start) || (today >= start && today < addDays(start, 7))) {
+    const offset = Math.floor((startOfWeek(today).getTime() - start.getTime()) / 86400000);
+    const col = grid.querySelector(`.day-col[data-day-offset="${offset}"]`);
+    if (col) {
+      const now = document.createElement("div");
+      now.className = "now";
+      const startHour = today.getHours() + today.getMinutes()/60;
+      now.style.top = (startHour * PX_PER_HOUR) + "px";
+      col.appendChild(now);
+    }
+  }
+}
+
+function renderAgenda() {
+  const agenda = document.getElementById("agenda");
+  const today = new Date();
+  const horizon = addDays(today, 14);
+  const events = DATA.events
+    .map(ev => ({ev, s: isoToLocal(ev.start), e: isoToLocal(ev.end)}))
+    .filter(x => x.s >= startOfDay(today) && x.s <= horizon)
+    .sort((a,b) => a.s - b.s);
+  if (events.length === 0) {
+    agenda.innerHTML = '<div class="empty">No events in the next 14 days.</div>';
+    return;
+  }
+  // group by day
+  const groups = {};
+  for (const x of events) {
+    const key = x.s.toDateString();
+    if (!groups[key]) groups[key] = {date: x.s, items: []};
+    groups[key].items.push(x);
+  }
+  let html = "";
+  for (const k of Object.keys(groups)) {
+    const g = groups[k];
+    const isToday = sameDay(g.date, today);
+    html += `<div class="day-group"><h3 class="${isToday ? "today" : ""}">${fmtDateLabel(g.date)}</h3>`;
+    for (const x of g.items) {
+      const color = x.ev.color;
+      const srcLabel = "event";
+      html += `<div class="item" style="border-left-color:${color}">
+        <div class="time">${fmtTime(x.s)}–${fmtTime(x.e)}</div>
+        <div class="body">
+          <div class="title">${escapeHtml(x.ev.summary)}</div>
+          <div class="src">${escapeHtml(srcLabel)}</div>
+          ${x.ev.location ? `<div class="meta">📍 ${escapeHtml(x.ev.location)}</div>` : ""}
+        </div>
+      </div>`;
+    }
+    html += "</div>";
+  }
+  agenda.innerHTML = html;
+}
+function startOfDay(d) { const x = new Date(d); x.setHours(0,0,0,0); return x; }
+function escapeHtml(s) { return String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[c]); }
+
+async function init() {
+  try {
+    const r = await fetch("./compiled.json", {cache: "no-store"});
+    DATA = await r.json();
+  } catch (e) {
+    document.body.innerHTML = `<div class="empty">Could not load compiled.json: ${e}<br><br>
+      Run <code>fetch_google.py</code> in the project dir to generate it.</div>`;
+    return;
+  }
+  
+  renderHeader();
+  renderGrid();
+  renderAgenda();
+  document.getElementById("prev").onclick = () => { VIEW_DATE = addDays(VIEW_DATE, -7); renderHeader(); renderGrid(); };
+  document.getElementById("next").onclick = () => { VIEW_DATE = addDays(VIEW_DATE,  7); renderHeader(); renderGrid(); };
+  document.getElementById("today").onclick = () => { VIEW_DATE = new Date(); renderHeader(); renderGrid(); };
+}
+init();
+</script>
+</body>
+</html>

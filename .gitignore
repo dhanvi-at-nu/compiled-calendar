@@ -1,0 +1,12 @@
+# Ignore private config and intermediate outputs from the public repo.
+feeds.json
+outlook_pull.py
+outlook_live.json
+find_invites.py
+search_danielle.py
+events_crop.png
+sidebar_crop.png
+fetch_google.py
+.venv/
+__pycache__/
+*.pyc
