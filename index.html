@@ -123,9 +123,22 @@ function startOfWeek(d) {
   x.setDate(x.getDate() - x.getDay());
   return x;
 }
+// Return a YYYY-MM-DD string in the local timezone for a Date.
+function localDateKey(d) {
+  const y = d.getFullYear();
+  const m = String(d.getMonth()+1).padStart(2,"0");
+  const day = String(d.getDate()).padStart(2,"0");
+  return `${y}-${m}-${day}`;
+}
 function addDays(d, n) { const x = new Date(d); x.setDate(x.getDate()+n); return x; }
 function sameDay(a, b) {
   return a.getFullYear()===b.getFullYear() && a.getMonth()===b.getMonth() && a.getDate()===b.getDate();
+}
+// Local-date-based day offset (avoids the UTC-vs-local off-by-one in date arithmetic).
+function dayOffsetFromStart(d, weekStart) {
+  const a = new Date(d.getFullYear(), d.getMonth(), d.getDate());
+  const b = new Date(weekStart.getFullYear(), weekStart.getMonth(), weekStart.getDate());
+  return Math.round((a - b) / 86400000);
 }
 
 function renderHeader() {
@@ -158,11 +171,8 @@ function renderGrid() {
   for (const ev of DATA.events) {
     const s = isoToLocal(ev.start);
     const e = isoToLocal(ev.end);
-    const startWeek = startOfWeek(s);
-    const offset = Math.floor((startWeek.getTime() - start.getTime()) / 86400000);
+    const offset = dayOffsetFromStart(s, start);
     if (offset < 0 || offset > 6) continue;
-    const weekEnd = addDays(start, 7);
-    if (s >= weekEnd) continue;
     const col = grid.querySelector(`.day-col[data-day-offset="${offset}"]`);
     if (!col) continue;
     const startHour = s.getHours() + s.getMinutes()/60;
@@ -178,13 +188,13 @@ function renderGrid() {
     el.style.height = height + "px";
     el.style.background = color;
     el.style.opacity = "0.92";
-    el.innerHTML = `${ev.summary}<span class="etime">${fmtTime(s)}–${fmtTime(e)}</span>`;
+    el.innerHTML = `${escapeHtml(ev.summary)}<span class="etime">${fmtTime(s)}–${fmtTime(e)}</span>`;
     col.appendChild(el);
   }
 
   const now = new Date();
   if (now >= start && now < addDays(start, 7)) {
-    const offset = Math.floor((startOfWeek(now).getTime() - start.getTime()) / 86400000);
+    const offset = dayOffsetFromStart(now, start);
     const col = grid.querySelector(`.day-col[data-day-offset="${offset}"]`);
     if (col) {
       const nowLine = document.createElement("div");
