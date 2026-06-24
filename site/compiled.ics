@@ -1,0 +1,1066 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hermes-agent//compiled calendar (public)//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Compiled calendar
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:STANDARD
+DTSTART:19701101T020000
+TZNAME:CST
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:19700308T020000
+TZNAME:CDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Nolan OOO
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260622
+DTSTAMP:20260624T152635Z
+UID:7i8c7h0ujt4gohk482ejuq7ak8@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MRJ @ ISSST (Rochester\, NY)
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260619
+DTSTAMP:20260624T152635Z
+UID:02onhkri4fv9jg8he48fevfted@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VC OOO
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260623
+DTSTAMP:20260624T152635Z
+UID:6d5pcbb5pailhgds6nc0t34es0@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VLP Subgroup
+DTSTART;TZID=America/Chicago:20260617T100000
+DTEND;TZID=America/Chicago:20260617T110000
+DTSTAMP:20260624T152635Z
+UID:3imu6v71bv768fgucid0f9crbm_R20260415T150000@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u><u>https://northwe
+ stern.zoom.us/j/7152828205</u></u></u></a><br><br>Roger*<br>Shiqi<br>Madel
+ ine<br>Jordan*
+LOCATION:Silverman 3-623
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wang Lab Weekly Meeting
+DTSTART;TZID=America/Chicago:20260617T150000
+DTEND;TZID=America/Chicago:20260617T170000
+DTSTAMP:20260624T152635Z
+UID:E6FFB599-EFE1-459C-9C45-03A05AFC77EC@hermes-compiled
+DESCRIPTION:Wang Lab Weekly Meeting
+LOCATION:Tech L361
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wang Lab Weekly Meeting (Lisa - Lit)
+DTSTART;TZID=America/Chicago:20260617T150000
+DTEND;TZID=America/Chicago:20260617T170000
+DTSTAMP:20260624T152635Z
+UID:0A65A357-5256-4FBC-99D9-00FC49B15C38@hermes-compiled
+DESCRIPTION:Wang Lab Weekly Meeting
+LOCATION:Tech L361
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MMM OOO PM
+DTSTART;VALUE=DATE:20260618
+DTEND;VALUE=DATE:20260619
+DTSTAMP:20260624T152635Z
+UID:i7r8s6hd4ou8ktsnpknko4dh30@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RA Out Am
+DTSTART;VALUE=DATE:20260618
+DTEND;VALUE=DATE:20260619
+DTSTAMP:20260624T152635Z
+UID:6786E785-973D-411E-B267-2781CD366EF8@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Virtual meeting with Dhanvi
+DTSTART:20260618T130000Z
+DTEND:20260618T140000Z
+DTSTAMP:20260624T152635Z
+UID:4gp5serp3tdasv73puaqrdknkr@google.com@hermes-compiled
+DESCRIPTION:Join with Google Meet: https://meet.google.com/jex-cmsy-dic\nO
+ r dial: (US) +1 219-515-4341 PIN: 877135988#\nMore phone numbers: https://
+ tel.meet/jex-cmsy-dic?pin=7905646780036&hs=7\n\nLearn more about Meet at: 
+ https://support.google.com/a/users/answer/9282720
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:University Holiday
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+DTSTAMP:20260624T152635Z
+UID:2a32e1pqrjamv2q2c6o1g6v4m5@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BW OOO
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260629
+DTSTAMP:20260624T152635Z
+UID:67joreemsjl9iq531iq62ersci@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BW + MW
+DTSTART:20260619T170000Z
+DTEND:20260619T180000Z
+DTSTAMP:20260624T152635Z
+UID:11BAA987-3543-44A4-A72C-7A34A14ABF84@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Concert Jax beach
+DTSTART:20260619T230000Z
+DTEND:20260620T000000Z
+DTSTAMP:20260624T152635Z
+UID:64rjipj6c8sj6b9i68o3cb9kcphmab9pccp3gb9o6cs34dr1c8p3ge35c8@google.com@
+ hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FC OOO
+DTSTART;VALUE=DATE:20260622
+DTEND;VALUE=DATE:20260623
+DTSTAMP:20260624T152635Z
+UID:78jhpvb3jach6ma2iku7e4du8n@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dishwashing - Lisa
+DTSTART;VALUE=DATE:20260622
+DTEND;VALUE=DATE:20260623
+DTSTAMP:20260624T152635Z
+UID:5fl4qn103c6ddoaiid8n0trje1@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MW Office Hours
+DTSTART;TZID=America/Chicago:20260622T133000
+DTEND;TZID=America/Chicago:20260622T141500
+DTSTAMP:20260624T152635Z
+UID:1ADC00CA-EB63-41C0-B944-2DA920E275A5@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:PW / MW
+DTSTART:20260622T183000Z
+DTEND:20260622T190000Z
+DTSTAMP:20260624T152635Z
+UID:4toiadido2mk9d48i8st0ualqb@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MCP Subgroup
+DTSTART;TZID=America/Chicago:20260622T150000
+DTEND;TZID=America/Chicago:20260622T160000
+DTSTAMP:20260624T152635Z
+UID:4bb8lcj0h8khifvdbsr8q5tok9@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+LOCATION:Silverman 3-626
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MCP Subgroup - Pathways (LCA Focused)
+DTSTART;TZID=America/Chicago:20260622T150000
+DTEND;TZID=America/Chicago:20260622T160000
+DTSTAMP:20260624T152635Z
+UID:4bb8lcj0h8khifvdbsr8q5tok9@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+LOCATION:Silverman 3-626
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AHWG Meeting
+DTSTART:20260622T223000Z
+DTEND:20260622T233000Z
+DTSTAMP:20260624T152635Z
+UID:6ho09ttkr2laptr72ch790arif@google.com@hermes-compiled
+LOCATION:Hogan 6-150 and Zoom
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ASG @ Kellogg
+DTSTART;VALUE=DATE:20260623
+DTEND;VALUE=DATE:20260624
+DTSTAMP:20260624T152635Z
+UID:2dfnnmu90o74o7judb7vvo6703@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ZH/MW
+DTSTART;TZID=America/Chicago:20260623T133000
+DTEND;TZID=America/Chicago:20260623T140000
+DTSTAMP:20260624T152635Z
+UID:bboj8keljjkle8e6rtgtbrh288@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MJ/MW
+DTSTART:20260623T190000Z
+DTEND:20260623T200000Z
+DTSTAMP:20260624T152635Z
+UID:3p4tl4oedvfd3l8ungqbi296sm@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DRV/ LN/ MW
+DTSTART:20260623T200000Z
+DTEND:20260623T203000Z
+DTSTAMP:20260624T152635Z
+UID:0khfj16tl2jdt4m2oudm8m6n9h@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LN/MW
+DTSTART:20260623T203000Z
+DTEND:20260623T210000Z
+DTSTAMP:20260624T152635Z
+UID:5682uugpifng5j4sbg6g0mr4t3@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ZKM/MW
+DTSTART:20260623T210000Z
+DTEND:20260623T213000Z
+DTSTAMP:20260624T152635Z
+UID:4m8ht9ue5ba3ufoj639dg56thn@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RX/MW
+DTSTART:20260623T213000Z
+DTEND:20260623T221500Z
+DTSTAMP:20260624T152635Z
+UID:1h35h3kcm599p0bn91cj8eti9i@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nolan WFH
+DTSTART;VALUE=DATE:20260624
+DTEND;VALUE=DATE:20260625
+DTSTAMP:20260624T152635Z
+UID:7dkil18jalaf1d092k2g574ug5@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dhanvi Vemulapalli (Tullman-Ercek): Autoclave #2\, Basement Reserv
+ ed
+DTSTART:20260624T150000Z
+DTEND:20260624T160000Z
+DTSTAMP:20260624T152635Z
+UID:040000008200E00074C5B7101A82E0080000000041FEA965E803DD0100000000000000
+ 0010000000C5E64EBD4E31154D87B7F67E27504437@hermes-compiled
+DESCRIPTION:Hello Dhanvi\,\n\nYour reservation should show up on the Autoc
+ lave #2\, Silverman Hall Basement reservation calendar shortly.   You will
+  also receive a confirmation email.\n\nIf you have any problems\, then ple
+ ase notify Scott Shell\, scott.shell@northwestern.edu.\n\nSincerely\,\nChe
+ misty of Life Processes Institute
+LOCATION:Silverman B705
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VLP Subgroup
+DTSTART;TZID=America/Chicago:20260624T100000
+DTEND;TZID=America/Chicago:20260624T110000
+DTSTAMP:20260624T152635Z
+UID:6567hgnjsa7a1qcj7t8mngf31m@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+LOCATION:Silverman 3-623
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Adhesion Peptide Meeting (Zoom)
+DTSTART:20260624T160000Z
+DTEND:20260624T170000Z
+DTSTAMP:20260624T152635Z
+UID:manual-adhesion-peptide-2026-06-24@hermes-compiled
+DESCRIPTION:added by Elvis\, manually entered by Dhanvi
+LOCATION:Zoom
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Colony picking — Foundry
+DTSTART:20260624T170000Z
+DTEND:20260624T180000Z
+DTSTAMP:20260624T152635Z
+UID:manual-foundry-colony-2026-06-24@hermes-compiled
+DESCRIPTION:added by Elvis\, manually entered by Dhanvi
+LOCATION:Foundry
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Group Meeting - Roger
+DTSTART;TZID=America/Chicago:20260624T140000
+DTEND;TZID=America/Chicago:20260624T150000
+DTSTAMP:20260624T152635Z
+UID:26k3qarb75sf79r8s225mqnm9g@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+LOCATION:Silverman 4-510
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Group Meeting
+DTSTART;TZID=America/Chicago:20260624T140000
+DTEND;TZID=America/Chicago:20260624T150000
+DTSTAMP:20260624T152635Z
+UID:26k3qarb75sf79r8s225mqnm9g@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wang Lab Weekly Meeting (Roundtable)
+DTSTART;TZID=America/Chicago:20260624T150000
+DTEND;TZID=America/Chicago:20260624T170000
+DTSTAMP:20260624T152635Z
+UID:E6FFB599-EFE1-459C-9C45-03A05AFC77EC@hermes-compiled
+DESCRIPTION:Wang Lab Weekly Meeting
+LOCATION:Tech L361
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:JBM out PM
+DTSTART;VALUE=DATE:20260625
+DTEND;VALUE=DATE:20260626
+DTSTAMP:20260624T152635Z
+UID:24b30ob4ak341jruo6leehqsqu@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Virtual meeting with Dhanvi
+DTSTART:20260625T130000Z
+DTEND:20260625T140000Z
+DTSTAMP:20260624T152635Z
+UID:2nv4entmjkbargi5e2dfaa8l1v@google.com@hermes-compiled
+DESCRIPTION:Join with Google Meet: https://meet.google.com/fbx-skee-vzj\nO
+ r dial: (US) +1 650-487-0455 PIN: 544822986#\nMore phone numbers: https://
+ tel.meet/fbx-skee-vzj?pin=6725015022566&hs=7\n\nLearn more about Meet at: 
+ https://support.google.com/a/users/answer/9282720
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:GSF colloquium
+DTSTART:20260625T221500Z
+DTEND:20260625T231500Z
+DTSTAMP:20260624T152635Z
+UID:440D22AE-1D5D-4AC0-BC12-501B74E47053@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lab BBQ
+DTSTART:20260625T230000Z
+DTEND:20260626T010000Z
+DTSTAMP:20260624T152635Z
+UID:6gtkvltgnlucpc59e6q7kc9l51@google.com@hermes-compiled
+DESCRIPTION:Food/carpool sign up: <a href="https://docs.google.com/spread
+ sheets/d/1v1y0tgtHiYALIJpLztM8vRqFOWJ5FQZSohktEOx1nAc/edit?usp=sharing" cl
+ ass="pastedDriveLink-0">https://docs.google.com/spreadsheets/d/1v1y0tgtHiY
+ ALIJpLztM8vRqFOWJ5FQZSohktEOx1nAc/edit?usp=sharing</a>
+LOCATION:Maddie's House
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:USAXS/12ID-E
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260628
+DTSTAMP:20260624T152635Z
+UID:0gfst6atbdfi34h9tq5irlgcl1@google.com@hermes-compiled
+LOCATION:아르곤 국립 연구소\, 9700 S Cass Ave\, Lemont\, IL 60439 
+ 미국
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Materials Subgroup
+DTSTART;TZID=America/Chicago:20260626T150000
+DTEND;TZID=America/Chicago:20260626T160000
+DTSTAMP:20260624T152635Z
+UID:2hj5i4k5nuescavgirj32qcfa8@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+LOCATION:Silverman 3-623
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dishwashing - Roger
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
+DTSTAMP:20260624T152635Z
+UID:421oo5opbrdu52643550c3lk9r@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Materials Subgroup
+DTSTART;TZID=America/Chicago:20260629T130000
+DTEND;TZID=America/Chicago:20260629T140000
+DTSTAMP:20260624T152635Z
+UID:2hj5i4k5nuescavgirj32qcfa8@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+LOCATION:Silverman 3-623
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DRV/MW
+DTSTART:20260629T190000Z
+DTEND:20260629T193000Z
+DTSTAMP:20260624T152635Z
+UID:2bqmlks6a7rvihktqr8bdq3hs8@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MCP Subgroup - Assemblies
+DTSTART;TZID=America/Chicago:20260629T150000
+DTEND;TZID=America/Chicago:20260629T160000
+DTSTAMP:20260624T152635Z
+UID:4bb8lcj0h8khifvdbsr8q5tok9@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+LOCATION:Silverman 3-626
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wang Lab Weekly Meeting (Social)
+DTSTART;TZID=America/Chicago:20260701T150000
+DTEND;TZID=America/Chicago:20260701T170000
+DTSTAMP:20260624T152635Z
+UID:F081C818-3E4C-4B97-A4BA-3984CE56CE8D@hermes-compiled
+LOCATION:Tech L361
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wang Lab Weekly Meeting
+DTSTART;TZID=America/Chicago:20260701T150000
+DTEND;TZID=America/Chicago:20260701T170000
+DTSTAMP:20260624T152635Z
+UID:F081C818-3E4C-4B97-A4BA-3984CE56CE8D@hermes-compiled
+LOCATION:Tech L361
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VLP Subgroup
+DTSTART;TZID=America/Chicago:20260702T110000
+DTEND;TZID=America/Chicago:20260702T120000
+DTSTAMP:20260624T152635Z
+UID:6567hgnjsa7a1qcj7t8mngf31m@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+LOCATION:Silverman 3-623
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Group Meeting - Elizabeth
+DTSTART;TZID=America/Chicago:20260702T130000
+DTEND;TZID=America/Chicago:20260702T140000
+DTSTAMP:20260624T152635Z
+UID:26k3qarb75sf79r8s225mqnm9g@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+LOCATION:Silverman 4-510
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:University Holiday
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
+DTSTAMP:20260624T152635Z
+UID:5csgi5oi6kav338217al22pb2n@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:PW OOO
+DTSTART;VALUE=DATE:20260706
+DTEND;VALUE=DATE:20260707
+DTSTAMP:20260624T152635Z
+UID:7njkpg6d6hmfa581q1ff1g80v4@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dishwashing - Dhanvi
+DTSTART;VALUE=DATE:20260706
+DTEND;VALUE=DATE:20260707
+DTSTAMP:20260624T152635Z
+UID:6fn0e0ums9mne69mbdevrhm4pm@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MCP Subgroup - Pathways
+DTSTART;TZID=America/Chicago:20260706T150000
+DTEND;TZID=America/Chicago:20260706T160000
+DTSTAMP:20260624T152635Z
+UID:4bb8lcj0h8khifvdbsr8q5tok9@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+LOCATION:Silverman 3-626
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AHWG Meeting
+DTSTART:20260706T223000Z
+DTEND:20260706T233000Z
+DTSTAMP:20260624T152635Z
+UID:6a8rrvprfufopot7utqrv8gm7i@google.com@hermes-compiled
+LOCATION:Hogan 6-150 and Zoom
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:C3 Symposium
+DTSTART;VALUE=DATE:20260707
+DTEND;VALUE=DATE:20260708
+DTSTAMP:20260624T152635Z
+UID:b7c8a5f1625f4b74937a0c58ab498d6c@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MMM volunteering C3S all day
+DTSTART;VALUE=DATE:20260707
+DTEND;VALUE=DATE:20260708
+DTSTAMP:20260624T152635Z
+UID:8946af3bd07e44be8ed18a3d99a75faa@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Group Meeting - Lisa
+DTSTART;TZID=America/Chicago:20260708T140000
+DTEND;TZID=America/Chicago:20260708T150000
+DTSTAMP:20260624T152635Z
+UID:26k3qarb75sf79r8s225mqnm9g@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+LOCATION:Silverman 4-510
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ZH OOO
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260711
+DTSTAMP:20260624T152635Z
+UID:99pb5vlrnull60du0a4qqo4s00@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LN OOO
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
+DTSTAMP:20260624T152635Z
+UID:2r8k3v9un6a4n6gt24361mcelc@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MMM OOO
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
+DTSTAMP:20260624T152635Z
+UID:bt3dnj7pl893fuboga4ngat0f4@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dishwashing - Madeline
+DTSTART;VALUE=DATE:20260713
+DTEND;VALUE=DATE:20260714
+DTSTAMP:20260624T152635Z
+UID:6po0pm5asvr7lao7r4s4vapkk6@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MCP Subgroup - Assemblies
+DTSTART;TZID=America/Chicago:20260713T150000
+DTEND;TZID=America/Chicago:20260713T160000
+DTSTAMP:20260624T152635Z
+UID:4bb8lcj0h8khifvdbsr8q5tok9@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+LOCATION:Silverman 3-626
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MMM OOO
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260715
+DTSTAMP:20260624T152635Z
+UID:851t40rlmmeepocf2sje3mlsnc@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Group Meeting - Pris
+DTSTART;TZID=America/Chicago:20260715T140000
+DTEND;TZID=America/Chicago:20260715T150000
+DTSTAMP:20260624T152635Z
+UID:26k3qarb75sf79r8s225mqnm9g@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+LOCATION:Silverman 4-510
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DMREF Outreach (PW\, LN\, DRV)
+DTSTART;VALUE=DATE:20260720
+DTEND;VALUE=DATE:20260722
+DTSTAMP:20260624T152635Z
+UID:7k04r0vk6q2967jkc3qvbr8hto@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dishwashing - Matthew
+DTSTART;VALUE=DATE:20260720
+DTEND;VALUE=DATE:20260721
+DTSTAMP:20260624T152635Z
+UID:1hrppskrs8f2d9c8d27go6e2hp@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DMREF Outreach
+DTSTART;VALUE=DATE:20260720
+DTEND;VALUE=DATE:20260722
+DTSTAMP:20260624T152635Z
+UID:e9g4ar0ej61pkfi4pcu3e3jlso@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RET - Intro to SynBio\, Lunch & Poster Pageant
+DTSTART:20260720T170000Z
+DTEND:20260720T183000Z
+DTSTAMP:20260624T152635Z
+UID:040000008200E00074C5B7101A82E0080000000067759FE493E7DC0100000000000000
+ 0010000000A3E4986FEB71314884577BA15E3B805D@hermes-compiled
+DESCRIPTION:Intro to SynBio and lunch with 8 RET teachers\nPoster pageant
+LOCATION:TBD
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LISA'S BIRTHDAY
+DTSTART;VALUE=DATE:20260724
+DTEND;VALUE=DATE:20260725
+DTSTAMP:20260624T152635Z
+UID:E5B1D41C-FB07-404D-9AA7-9024186DFE68@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lisa Bday!
+DTSTART;VALUE=DATE:20260724
+DTEND;VALUE=DATE:20260725
+DTSTAMP:20260624T152635Z
+UID:1iosrr9rrqsm8sbu2vkgmu0pmd@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Prom
+DTSTART:20260726T000000Z
+DTEND:20260726T030000Z
+DTSTAMP:20260624T152635Z
+UID:56F65B5B-8928-4035-A3AB-E574349246F9@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dishwashing - Feipeng
+DTSTART;VALUE=DATE:20260727
+DTEND;VALUE=DATE:20260728
+DTSTAMP:20260624T152635Z
+UID:1u6i79b3kmjlja546k7r4g3vru@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MCP Subgroup - Assemblies
+DTSTART;TZID=America/Chicago:20260727T150000
+DTEND;TZID=America/Chicago:20260727T160000
+DTSTAMP:20260624T152635Z
+UID:4bb8lcj0h8khifvdbsr8q5tok9@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+LOCATION:Silverman 3-626
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lab Retreat
+DTSTART;VALUE=DATE:20260728
+DTEND;VALUE=DATE:20260731
+DTSTAMP:20260624T152635Z
+UID:0odgt45bq2s65rtgeeequ68ke5@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Seedling presentation--Prof. Yang
+DTSTART:20260729T160000Z
+DTEND:20260729T170000Z
+DTSTAMP:20260624T152635Z
+UID:040000008200E00074C5B7101A82E00800000000FB92DBE0319CDC0100000000000000
+ 00100000002AF98F6B25D82F4EAAC72C02B458C0E3@hermes-compiled
+DESCRIPTION:[https://st2.zoom.us/static/6.3.52789/image/new/ZoomLogo_110_2
+ 5.png]<http://zoom.us/>\nHi there\,\nTerence Ryan is inviting you to a sch
+ eduled Zoom meeting.\nJoin Zoom Meeting<https://mit.zoom.us/j/94641532983?
+ from=addon>\nPhone one-tap:\nUS: +16465588656\,\,94641532983#<tel:+1646558
+ 8656\,\,94641532983> or +16699006833\,\,94641532983#<tel:+16699006833\,\,9
+ 4641532983>\nMeeting URL:\nhttps://mit.zoom.us/j/94641532983?from=addon\nJ
+ oin by Telephone\nFor higher quality\, dial a number based on your current
+  location.\nDial:\n\nUS: +1 646 558 8656 or +1 669 900 6833\nMexico: +52 5
+ 54 161 4288\nEstonia: +372 880 1188 or +372 660 1699\nPeru: +51 1 730 6777
+  or +51 1 707 5788\nSweden: +46 850 539 728 or +46 8 4468 2488\nArgentina:
+  +54 112 040 0447 or +54 341 512 2188 or +54 343 414 5986\nItaly: +39 069 
+ 480 6488 or +39 020 066 7245\nCanada: +1 647 558 0588\nLuxembourg: +352 27
+ 86 4277 or +352 2786 1188\nCzech Republic: +420 5 3889 0161 or +420 2 2888
+  2388\nNetherlands: +31 20 794 0854 or +31 20 241 0288\nFrance: +33 1 7037
+  2246 or +33 1 7037 9729 or +33 1 8699 5831\nPoland: +48 22 398 7356 or +4
+ 8 22 307 3488\nSlovakia: +421 233 418 515 or +421 233 056 888\nBelgium: +3
+ 2 2 588 4188 or +32 2 290 9360\nMalta: +356 2778 1288 or +356 2776 1777\nD
+ ominican Republic: +1 829 956 2188 or +1 829 947 9220\nPanama: +507 833 95
+ 88\nGreece: +30 231 118 0599 or +30 211 198 4488\nRomania: +40 37 170 0418
+  or +40 31 630 1088\nBrazil: +55 21 3958 7888 or +55 11 4680 6788\nLithuan
+ ia: +370 5214 1488 or +370 3799 9260\nCyprus: +357 2 505 4777 or +357 2 20
+ 0 0888\nFinland: +358 9 4245 1488 or +358 3 4109 2129\nHungary: +36 1 701 
+ 0488 or +36 1 408 8456\nSlovenia: +386 1888 8788 or +386 1600 3102\nAustra
+ lia: +61 8 7150 1149 or +61 2 8015 6011\nJapan: +81 3 4579 0545 or +81 3 4
+ 578 1488\nChile: +56 41 256 0288 or +56 23 210 9066\nDenmark: +45 89 88 37
+  88 or +45 32 71 31 57\nNew Zealand: +64 9 884 6780 or +64 4 886 0026\nGeo
+ rgia: +995 7067 77954 or +995 3224 73988\nPortugal: +351 308 810 988 or +3
+ 51 308 804 188\nIsrael: +972 3 978 6688\nSouth Africa: +27 87 551 7702\nSp
+ ain: +34 917 873 431 or +34 84 368 5025\nCroatia: +385 1777 6333 or +385 1
+ 300 0988\nSingapore: +65 3165 1065 or +65 3158 7288\nSwitzerland: +41 43 2
+ 10 70 42 or +41 31 528 09 88\nLatvia: +371 6303 1888 or +371 6303 1808\nGe
+ rmany: +49 69 7104 9922\nUnited Kingdom: +44 203 481 5237 or +44 131 460 1
+ 196\nPuerto Rico: +1 787 966 7727 or +1 787 945 1488\nIreland: +353 6 163 
+ 9031 or +353 1 653 3895\nEl Salvador: +503 2136 6444 or +503 2113 9088\nAu
+ stria: +43 72 011 5988 or +43 670 309 0165\nBulgaria: +359 3 257 1633 or +
+ 359 2 492 5688\nMeeting ID:\n946 4153 2983\nInternational numbers<https://
+ mit.zoom.us/u/abrh39Ne1n>\nJoin from an H.323/SIP room system\nH.323:\n144
+ .195.19.161 (US West)\n206.247.11.121 (US East)\n115.114.131.7 (India Mumb
+ ai)\n115.114.115.7 (India Hyderabad)\n159.124.15.191 (Amsterdam Netherland
+ s)\n159.124.47.249 (Germany)\n159.124.104.213 (Australia Sydney)\n159.124.
+ 74.212 (Australia Melbourne)\n170.114.180.219 (Singapore)\n64.211.144.160 
+ (Brazil)\n159.124.132.243 (Mexico)\n159.124.168.213 (Canada Toronto)\n159.
+ 124.196.25 (Canada Vancouver)\n170.114.194.163 (Japan Tokyo)\n147.124.100.
+ 25 (Japan Osaka)\nMeeting ID:\n946 4153 2983\nSIP:\n94641532983@zoomcrc.co
+ m
+LOCATION:Zoom Conference\; https://mit.zoom.us/j/94641532983?from=addon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Group Meeting - Maddie
+DTSTART;TZID=America/Chicago:20260729T140000
+DTEND;TZID=America/Chicago:20260729T150000
+DTSTAMP:20260624T152635Z
+UID:26k3qarb75sf79r8s225mqnm9g@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+LOCATION:Silverman 4-510
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RET/CSB Meet-and-Greet
+DTSTART:20260729T193000Z
+DTEND:20260729T203000Z
+DTSTAMP:20260624T152635Z
+UID:040000008200E00074C5B7101A82E00800000000549814D4D0AFDC0100000000000000
+ 0010000000F16FD1EA6F071049AD5E69E4C2ABD84D@hermes-compiled
+DESCRIPTION:Come meet this year's RET cohort - please invite your lab mate
+ s!\n\nDessert and drinks will be provided
+LOCATION:TBD
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CSB/RET Teacher Presentations & Lunch
+DTSTART:20260731T170000Z
+DTEND:20260731T190000Z
+DTSTAMP:20260624T152635Z
+UID:040000008200E00074C5B7101A82E008000000004BFC81D68EE8DC0100000000000000
+ 001000000091C611C7538BD94081B6FF4B3F91E277@hermes-compiled
+DESCRIPTION:Pizza will be served!
+LOCATION:TBD
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Daniel return to office
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260804
+DTSTAMP:20260624T152635Z
+UID:0d7phgjq6efsmbn2ke0nqcqd7o@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dishwashing - Maddie
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260804
+DTSTAMP:20260624T152635Z
+UID:13ncrulsqiaur2mlthq28n7l1b@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MCP Subgroup - Pathways (no DTE)
+DTSTART;TZID=America/Chicago:20260803T150000
+DTEND;TZID=America/Chicago:20260803T160000
+DTSTAMP:20260624T152635Z
+UID:4bb8lcj0h8khifvdbsr8q5tok9@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+LOCATION:Silverman 3-626
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DCA ooo AM (Dentist)
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260805
+DTSTAMP:20260624T152635Z
+UID:52b9l8co70kp1hsfomsidk0ut9@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Group Meeting - Dhanvi
+DTSTART;TZID=America/Chicago:20260805T140000
+DTEND;TZID=America/Chicago:20260805T150000
+DTSTAMP:20260624T152635Z
+UID:26k3qarb75sf79r8s225mqnm9g@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lucy OOO
+DTSTART;VALUE=DATE:20260806
+DTEND;VALUE=DATE:20260810
+DTSTAMP:20260624T152635Z
+UID:E68D6995-1D43-4CF5-8D03-DFA1E355BB35@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dishwashing - Annie
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
+DTSTAMP:20260624T152635Z
+UID:65jovan90pg63fprq2f1ncqcsp@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MCP Subgroup - Assemblies (no DTE)
+DTSTART;TZID=America/Chicago:20260810T150000
+DTEND;TZID=America/Chicago:20260810T160000
+DTSTAMP:20260624T152635Z
+UID:4bb8lcj0h8khifvdbsr8q5tok9@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+LOCATION:Silverman 3-626
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Stay at Inn at MeadowCroft
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260813
+DTSTAMP:20260624T152635Z
+UID:vueqe1a97beshircrrgbue4728@google.com@hermes-compiled
+DESCRIPTION:To see detailed information for automatically created events l
+ ike this one\, use the official Google Calendar app. https://g.co/calendar
+ \n\nThis event was created from an email you received in Gmail. https://ma
+ il.google.com/mail?extsrc=cal&plid=ACUX6DOUfV_BOF6_u74NN9SnWNH6penWGUmkizQ
+LOCATION:Inn at MeadowCroft\, Swoope
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Group Meeting - Jake
+DTSTART;TZID=America/Chicago:20260812T140000
+DTEND;TZID=America/Chicago:20260812T150000
+DTSTAMP:20260624T152635Z
+UID:26k3qarb75sf79r8s225mqnm9g@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+LOCATION:Silverman 4-510
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Materials Subgroup
+DTSTART;TZID=America/Chicago:20260813T130000
+DTEND;TZID=America/Chicago:20260813T140000
+DTSTAMP:20260624T152635Z
+UID:2hj5i4k5nuescavgirj32qcfa8@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+LOCATION:Silverman 3-623
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LTS in office
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+DTSTAMP:20260624T152635Z
+UID:9A129F60-8782-468D-9B41-CCFE7C24C6E4@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LTS in office
+DTSTART;VALUE=DATE:20260816
+DTEND;VALUE=DATE:20260817
+DTSTAMP:20260624T152635Z
+UID:006C2982-5ACD-4E29-A256-BB90B092E567@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dishwashing - Pris
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260818
+DTSTAMP:20260624T152635Z
+UID:6f4ep9g9gg8i7i44n2jto9pcn0@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MCP Subgroup - Pathways
+DTSTART;TZID=America/Chicago:20260817T150000
+DTEND;TZID=America/Chicago:20260817T160000
+DTSTAMP:20260624T152635Z
+UID:4bb8lcj0h8khifvdbsr8q5tok9@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+LOCATION:Silverman 3-626
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Group Meeting - Matthew
+DTSTART;TZID=America/Chicago:20260819T140000
+DTEND;TZID=America/Chicago:20260819T150000
+DTSTAMP:20260624T152635Z
+UID:26k3qarb75sf79r8s225mqnm9g@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+LOCATION:Silverman 4-510
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CPR internship ends
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+DTSTAMP:20260624T152635Z
+UID:352dsi29o7q5d9o5vlnecceurc@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ACS
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260828
+DTSTAMP:20260624T152635Z
+UID:31CED61B-EDEE-4940-9E07-EC2E8FB86407@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dishwashing - Roger
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260825
+DTSTAMP:20260624T152635Z
+UID:3icb0fk0cf9the9ovhn0tnad1k@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:LN OOO
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260829
+DTSTAMP:20260624T152635Z
+UID:3991vep1tf38ibro233monrlsg@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DCA out AM (Doc's app)
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260825
+DTSTAMP:20260624T152635Z
+UID:2fapmtkq8annolpmroehbli8cn@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BW’s COLL Session
+DTSTART:20260824T190000Z
+DTEND:20260824T230000Z
+DTSTAMP:20260624T152635Z
+UID:F61ADF75-F865-4707-A375-6092C2E8B2BF@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MCP Subgroup - Assemblies ( no DTE)
+DTSTART;TZID=America/Chicago:20260824T150000
+DTEND;TZID=America/Chicago:20260824T160000
+DTSTAMP:20260624T152635Z
+UID:4bb8lcj0h8khifvdbsr8q5tok9@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+LOCATION:Silverman 3-626
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Group Meeting - Madeline
+DTSTART;TZID=America/Chicago:20260826T140000
+DTEND;TZID=America/Chicago:20260826T150000
+DTSTAMP:20260624T152635Z
+UID:26k3qarb75sf79r8s225mqnm9g@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Daniel's PhD Defense
+DTSTART:20260828T170000Z
+DTEND:20260828T190000Z
+DTSTAMP:20260624T152635Z
+UID:1gg8nag12r7s0negp1nrrkvorc@google.com@hermes-compiled
+LOCATION:Silverman Hall 3-510
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Om Sree’s Birthday
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
+DTSTAMP:20260624T152635Z
+UID:qsemfoi1qkeohrdbn9didf6m0s@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DCA's last day
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+DTSTAMP:20260624T152635Z
+UID:03ldbr25nb4v0u2i9aek0oskdm@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dishwashing - Lisa
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+DTSTAMP:20260624T152635Z
+UID:7ebcmgmhjkv2651sh2rdph3fjv@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MCP Subgroup - Pathways (no DTE)
+DTSTART;TZID=America/Chicago:20260831T150000
+DTEND;TZID=America/Chicago:20260831T160000
+DTSTAMP:20260624T152635Z
+UID:4bb8lcj0h8khifvdbsr8q5tok9@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+LOCATION:Silverman 3-626
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Group Meeting - Feipeng
+DTSTART;TZID=America/Chicago:20260902T140000
+DTEND;TZID=America/Chicago:20260902T150000
+DTSTAMP:20260624T152635Z
+UID:26k3qarb75sf79r8s225mqnm9g@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pris' Birthday!
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+DTSTAMP:20260624T152635Z
+UID:6hfrtupufb9hroii4s9v5asdlv@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dishwashing - Dhanvi
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+DTSTAMP:20260624T152635Z
+UID:4i218aobcmiiv9cl0s0ksm1085@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:University Holiday
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+DTSTAMP:20260624T152635Z
+UID:7g2vv0k2ieha21gqp2cbsegch3@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MCP Subgroup - (assemblies)
+DTSTART;TZID=America/Chicago:20260907T150000
+DTEND;TZID=America/Chicago:20260907T160000
+DTSTAMP:20260624T152635Z
+UID:4bb8lcj0h8khifvdbsr8q5tok9@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+LOCATION:Silverman 3-626
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Group Meeting - Annie
+DTSTART;TZID=America/Chicago:20260909T140000
+DTEND;TZID=America/Chicago:20260909T150000
+DTSTAMP:20260624T152635Z
+UID:26k3qarb75sf79r8s225mqnm9g@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dishwashing - Madeline
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+DTSTAMP:20260624T152635Z
+UID:5583quli94vov4fqak1iegj32k@google.com@hermes-compiled
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MCP Subgroup - Pathways
+DTSTART;TZID=America/Chicago:20260914T150000
+DTEND;TZID=America/Chicago:20260914T160000
+DTSTAMP:20260624T152635Z
+UID:4bb8lcj0h8khifvdbsr8q5tok9@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+LOCATION:Silverman 3-626
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Group Meeting - Roger
+DTSTART;TZID=America/Chicago:20260916T140000
+DTEND;TZID=America/Chicago:20260916T150000
+DTSTAMP:20260624T152635Z
+UID:26k3qarb75sf79r8s225mqnm9g@google.com@hermes-compiled
+DESCRIPTION:Zoom (if needed - please tell in advance): <a href="https://n
+ orthwestern.zoom.us/j/7152828205" target="_blank"><u><u>https://northweste
+ rn.zoom.us/j/7152828205</u></u></a>
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dishwashing - Matthew
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+DTSTAMP:20260624T152635Z
+UID:6rs5t769tvdc42obs1c4nkdstc@google.com@hermes-compiled
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,1063 @@
+{
+  "generated_at": "2026-06-24T15:26:35+00:00",
+  "window": {
+    "start": "2026-06-17T15:26:35.404803+00:00",
+    "end": "2026-09-22T15:26:35.404803+00:00"
+  },
+  "event_count": 117,
+  "events": [
+    {
+      "uid": "7i8c7h0ujt4gohk482ejuq7ak8@google.com",
+      "summary": "Nolan OOO",
+      "start": "2026-06-12T00:00:00+00:00",
+      "end": "2026-06-22",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "02onhkri4fv9jg8he48fevfted@google.com",
+      "summary": "MRJ @ ISSST (Rochester, NY)",
+      "start": "2026-06-15T00:00:00+00:00",
+      "end": "2026-06-19",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "6d5pcbb5pailhgds6nc0t34es0@google.com",
+      "summary": "VC OOO",
+      "start": "2026-06-15T00:00:00+00:00",
+      "end": "2026-06-23",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "3imu6v71bv768fgucid0f9crbm_R20260415T150000@google.com",
+      "summary": "VLP Subgroup",
+      "start": "2026-06-17T10:00:00-05:00",
+      "end": "2026-06-17T11:00:00-05:00",
+      "location": "Silverman 3-623",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u><u>https://northwestern.zoom.us/j/7152828205</u></u></u></a><br><br>Roger*<br>Shiqi<br>Madeline<br>Jordan*",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "E6FFB599-EFE1-459C-9C45-03A05AFC77EC",
+      "summary": "Wang Lab Weekly Meeting",
+      "start": "2026-06-17T15:00:00-05:00",
+      "end": "2026-06-17T17:00:00-05:00",
+      "location": "Tech L361",
+      "description": "Wang Lab Weekly Meeting",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "0A65A357-5256-4FBC-99D9-00FC49B15C38",
+      "summary": "Wang Lab Weekly Meeting (Lisa - Lit)",
+      "start": "2026-06-17T15:00:00-05:00",
+      "end": "2026-06-17T17:00:00-05:00",
+      "location": "Tech L361",
+      "description": "Wang Lab Weekly Meeting",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "i7r8s6hd4ou8ktsnpknko4dh30@google.com",
+      "summary": "MMM OOO PM",
+      "start": "2026-06-18T00:00:00+00:00",
+      "end": "2026-06-19",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "6786E785-973D-411E-B267-2781CD366EF8",
+      "summary": "RA Out Am",
+      "start": "2026-06-18T00:00:00+00:00",
+      "end": "2026-06-19",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "4gp5serp3tdasv73puaqrdknkr@google.com",
+      "summary": "Virtual meeting with Dhanvi",
+      "start": "2026-06-18T13:00:00+00:00",
+      "end": "2026-06-18T14:00:00+00:00",
+      "location": "",
+      "description": "Join with Google Meet: https://meet.google.com/jex-cmsy-dic\nOr dial: (US) +1 219-515-4341 PIN: 877135988#\nMore phone numbers: https://tel.meet/jex-cmsy-dic?pin=7905646780036&hs=7\n\nLearn more about Meet at: https://support.google.com/a/users/answer/9282720",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "2a32e1pqrjamv2q2c6o1g6v4m5@google.com",
+      "summary": "University Holiday",
+      "start": "2026-06-19T00:00:00+00:00",
+      "end": "2026-06-20",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "67joreemsjl9iq531iq62ersci@google.com",
+      "summary": "BW OOO",
+      "start": "2026-06-19T00:00:00+00:00",
+      "end": "2026-06-29",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "11BAA987-3543-44A4-A72C-7A34A14ABF84",
+      "summary": "BW + MW",
+      "start": "2026-06-19T17:00:00+00:00",
+      "end": "2026-06-19T18:00:00+00:00",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "64rjipj6c8sj6b9i68o3cb9kcphmab9pccp3gb9o6cs34dr1c8p3ge35c8@google.com",
+      "summary": "Concert Jax beach",
+      "start": "2026-06-19T23:00:00+00:00",
+      "end": "2026-06-20T00:00:00+00:00",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "78jhpvb3jach6ma2iku7e4du8n@google.com",
+      "summary": "FC OOO",
+      "start": "2026-06-22T00:00:00+00:00",
+      "end": "2026-06-23",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "5fl4qn103c6ddoaiid8n0trje1@google.com",
+      "summary": "Dishwashing - Lisa",
+      "start": "2026-06-22T00:00:00+00:00",
+      "end": "2026-06-23",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "1ADC00CA-EB63-41C0-B944-2DA920E275A5",
+      "summary": "MW Office Hours",
+      "start": "2026-06-22T13:30:00-05:00",
+      "end": "2026-06-22T14:15:00-05:00",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "4toiadido2mk9d48i8st0ualqb@google.com",
+      "summary": "PW / MW",
+      "start": "2026-06-22T18:30:00+00:00",
+      "end": "2026-06-22T19:00:00+00:00",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "4bb8lcj0h8khifvdbsr8q5tok9@google.com",
+      "summary": "MCP Subgroup",
+      "start": "2026-06-22T15:00:00-05:00",
+      "end": "2026-06-22T16:00:00-05:00",
+      "location": "Silverman 3-626",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "4bb8lcj0h8khifvdbsr8q5tok9@google.com",
+      "summary": "MCP Subgroup - Pathways (LCA Focused)",
+      "start": "2026-06-22T15:00:00-05:00",
+      "end": "2026-06-22T16:00:00-05:00",
+      "location": "Silverman 3-626",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "6ho09ttkr2laptr72ch790arif@google.com",
+      "summary": "AHWG Meeting",
+      "start": "2026-06-22T22:30:00+00:00",
+      "end": "2026-06-22T23:30:00+00:00",
+      "location": "Hogan 6-150 and Zoom",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "2dfnnmu90o74o7judb7vvo6703@google.com",
+      "summary": "ASG @ Kellogg",
+      "start": "2026-06-23T00:00:00+00:00",
+      "end": "2026-06-24",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "bboj8keljjkle8e6rtgtbrh288@google.com",
+      "summary": "ZH/MW",
+      "start": "2026-06-23T13:30:00-05:00",
+      "end": "2026-06-23T14:00:00-05:00",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "3p4tl4oedvfd3l8ungqbi296sm@google.com",
+      "summary": "MJ/MW",
+      "start": "2026-06-23T19:00:00+00:00",
+      "end": "2026-06-23T20:00:00+00:00",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "0khfj16tl2jdt4m2oudm8m6n9h@google.com",
+      "summary": "DRV/ LN/ MW",
+      "start": "2026-06-23T20:00:00+00:00",
+      "end": "2026-06-23T20:30:00+00:00",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "5682uugpifng5j4sbg6g0mr4t3@google.com",
+      "summary": "LN/MW",
+      "start": "2026-06-23T20:30:00+00:00",
+      "end": "2026-06-23T21:00:00+00:00",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "4m8ht9ue5ba3ufoj639dg56thn@google.com",
+      "summary": "ZKM/MW",
+      "start": "2026-06-23T21:00:00+00:00",
+      "end": "2026-06-23T21:30:00+00:00",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "1h35h3kcm599p0bn91cj8eti9i@google.com",
+      "summary": "RX/MW",
+      "start": "2026-06-23T21:30:00+00:00",
+      "end": "2026-06-23T22:15:00+00:00",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "7dkil18jalaf1d092k2g574ug5@google.com",
+      "summary": "Nolan WFH",
+      "start": "2026-06-24T00:00:00+00:00",
+      "end": "2026-06-25",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "040000008200E00074C5B7101A82E0080000000041FEA965E803DD01000000000000000010000000C5E64EBD4E31154D87B7F67E27504437",
+      "summary": "Dhanvi Vemulapalli (Tullman-Ercek): Autoclave #2, Basement Reserved",
+      "start": "2026-06-24T15:00:00+00:00",
+      "end": "2026-06-24T16:00:00+00:00",
+      "location": "Silverman B705",
+      "description": "Hello Dhanvi,\n\nYour reservation should show up on the Autoclave #2, Silverman Hall Basement reservation calendar shortly.   You will also receive a confirmation email.\n\nIf you have any problems, then please notify Scott Shell, scott.shell@northwestern.edu.\n\nSincerely,\nChemisty of Life Processes Institute",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "6567hgnjsa7a1qcj7t8mngf31m@google.com",
+      "summary": "VLP Subgroup",
+      "start": "2026-06-24T10:00:00-05:00",
+      "end": "2026-06-24T11:00:00-05:00",
+      "location": "Silverman 3-623",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "manual-adhesion-peptide-2026-06-24",
+      "summary": "Adhesion Peptide Meeting (Zoom)",
+      "start": "2026-06-24T16:00:00+00:00",
+      "end": "2026-06-24T17:00:00+00:00",
+      "location": "Zoom",
+      "description": "added by Elvis, manually entered by Dhanvi",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "manual-foundry-colony-2026-06-24",
+      "summary": "Colony picking — Foundry",
+      "start": "2026-06-24T17:00:00+00:00",
+      "end": "2026-06-24T18:00:00+00:00",
+      "location": "Foundry",
+      "description": "added by Elvis, manually entered by Dhanvi",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "26k3qarb75sf79r8s225mqnm9g@google.com",
+      "summary": "Group Meeting - Roger",
+      "start": "2026-06-24T14:00:00-05:00",
+      "end": "2026-06-24T15:00:00-05:00",
+      "location": "Silverman 4-510",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "26k3qarb75sf79r8s225mqnm9g@google.com",
+      "summary": "Group Meeting",
+      "start": "2026-06-24T14:00:00-05:00",
+      "end": "2026-06-24T15:00:00-05:00",
+      "location": "",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "E6FFB599-EFE1-459C-9C45-03A05AFC77EC",
+      "summary": "Wang Lab Weekly Meeting (Roundtable)",
+      "start": "2026-06-24T15:00:00-05:00",
+      "end": "2026-06-24T17:00:00-05:00",
+      "location": "Tech L361",
+      "description": "Wang Lab Weekly Meeting",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "24b30ob4ak341jruo6leehqsqu@google.com",
+      "summary": "JBM out PM",
+      "start": "2026-06-25T00:00:00+00:00",
+      "end": "2026-06-26",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "2nv4entmjkbargi5e2dfaa8l1v@google.com",
+      "summary": "Virtual meeting with Dhanvi",
+      "start": "2026-06-25T13:00:00+00:00",
+      "end": "2026-06-25T14:00:00+00:00",
+      "location": "",
+      "description": "Join with Google Meet: https://meet.google.com/fbx-skee-vzj\nOr dial: (US) +1 650-487-0455 PIN: 544822986#\nMore phone numbers: https://tel.meet/fbx-skee-vzj?pin=6725015022566&hs=7\n\nLearn more about Meet at: https://support.google.com/a/users/answer/9282720",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "440D22AE-1D5D-4AC0-BC12-501B74E47053",
+      "summary": "GSF colloquium",
+      "start": "2026-06-25T22:15:00+00:00",
+      "end": "2026-06-25T23:15:00+00:00",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "6gtkvltgnlucpc59e6q7kc9l51@google.com",
+      "summary": "Lab BBQ",
+      "start": "2026-06-25T23:00:00+00:00",
+      "end": "2026-06-26T01:00:00+00:00",
+      "location": "Maddie's House",
+      "description": "Food/carpool sign up: <a href=\"https://docs.google.com/spreadsheets/d/1v1y0tgtHiYALIJpLztM8vRqFOWJ5FQZSohktEOx1nAc/edit?usp=sharing\" class=\"pastedDriveLink-0\">https://docs.google.com/spreadsheets/d/1v1y0tgtHiYALIJpLztM8vRqFOWJ5FQZSohktEOx1nAc/edit?usp=sharing</a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "0gfst6atbdfi34h9tq5irlgcl1@google.com",
+      "summary": "USAXS/12ID-E",
+      "start": "2026-06-26T00:00:00+00:00",
+      "end": "2026-06-28",
+      "location": "아르곤 국립 연구소, 9700 S Cass Ave, Lemont, IL 60439 미국",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "2hj5i4k5nuescavgirj32qcfa8@google.com",
+      "summary": "Materials Subgroup",
+      "start": "2026-06-26T15:00:00-05:00",
+      "end": "2026-06-26T16:00:00-05:00",
+      "location": "Silverman 3-623",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "421oo5opbrdu52643550c3lk9r@google.com",
+      "summary": "Dishwashing - Roger",
+      "start": "2026-06-29T00:00:00+00:00",
+      "end": "2026-06-30",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "2hj5i4k5nuescavgirj32qcfa8@google.com",
+      "summary": "Materials Subgroup",
+      "start": "2026-06-29T13:00:00-05:00",
+      "end": "2026-06-29T14:00:00-05:00",
+      "location": "Silverman 3-623",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "2bqmlks6a7rvihktqr8bdq3hs8@google.com",
+      "summary": "DRV/MW",
+      "start": "2026-06-29T19:00:00+00:00",
+      "end": "2026-06-29T19:30:00+00:00",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "4bb8lcj0h8khifvdbsr8q5tok9@google.com",
+      "summary": "MCP Subgroup - Assemblies",
+      "start": "2026-06-29T15:00:00-05:00",
+      "end": "2026-06-29T16:00:00-05:00",
+      "location": "Silverman 3-626",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "F081C818-3E4C-4B97-A4BA-3984CE56CE8D",
+      "summary": "Wang Lab Weekly Meeting (Social)",
+      "start": "2026-07-01T15:00:00-05:00",
+      "end": "2026-07-01T17:00:00-05:00",
+      "location": "Tech L361",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "F081C818-3E4C-4B97-A4BA-3984CE56CE8D",
+      "summary": "Wang Lab Weekly Meeting",
+      "start": "2026-07-01T15:00:00-05:00",
+      "end": "2026-07-01T17:00:00-05:00",
+      "location": "Tech L361",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "6567hgnjsa7a1qcj7t8mngf31m@google.com",
+      "summary": "VLP Subgroup",
+      "start": "2026-07-02T11:00:00-05:00",
+      "end": "2026-07-02T12:00:00-05:00",
+      "location": "Silverman 3-623",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "26k3qarb75sf79r8s225mqnm9g@google.com",
+      "summary": "Group Meeting - Elizabeth",
+      "start": "2026-07-02T13:00:00-05:00",
+      "end": "2026-07-02T14:00:00-05:00",
+      "location": "Silverman 4-510",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "5csgi5oi6kav338217al22pb2n@google.com",
+      "summary": "University Holiday",
+      "start": "2026-07-03T00:00:00+00:00",
+      "end": "2026-07-04",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "7njkpg6d6hmfa581q1ff1g80v4@google.com",
+      "summary": "PW OOO",
+      "start": "2026-07-06T00:00:00+00:00",
+      "end": "2026-07-07",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "6fn0e0ums9mne69mbdevrhm4pm@google.com",
+      "summary": "Dishwashing - Dhanvi",
+      "start": "2026-07-06T00:00:00+00:00",
+      "end": "2026-07-07",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "4bb8lcj0h8khifvdbsr8q5tok9@google.com",
+      "summary": "MCP Subgroup - Pathways",
+      "start": "2026-07-06T15:00:00-05:00",
+      "end": "2026-07-06T16:00:00-05:00",
+      "location": "Silverman 3-626",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "6a8rrvprfufopot7utqrv8gm7i@google.com",
+      "summary": "AHWG Meeting",
+      "start": "2026-07-06T22:30:00+00:00",
+      "end": "2026-07-06T23:30:00+00:00",
+      "location": "Hogan 6-150 and Zoom",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "b7c8a5f1625f4b74937a0c58ab498d6c@google.com",
+      "summary": "C3 Symposium",
+      "start": "2026-07-07T00:00:00+00:00",
+      "end": "2026-07-08",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "8946af3bd07e44be8ed18a3d99a75faa@google.com",
+      "summary": "MMM volunteering C3S all day",
+      "start": "2026-07-07T00:00:00+00:00",
+      "end": "2026-07-08",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "26k3qarb75sf79r8s225mqnm9g@google.com",
+      "summary": "Group Meeting - Lisa",
+      "start": "2026-07-08T14:00:00-05:00",
+      "end": "2026-07-08T15:00:00-05:00",
+      "location": "Silverman 4-510",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "99pb5vlrnull60du0a4qqo4s00@google.com",
+      "summary": "ZH OOO",
+      "start": "2026-07-09T00:00:00+00:00",
+      "end": "2026-07-11",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "2r8k3v9un6a4n6gt24361mcelc@google.com",
+      "summary": "LN OOO",
+      "start": "2026-07-10T00:00:00+00:00",
+      "end": "2026-07-11",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "bt3dnj7pl893fuboga4ngat0f4@google.com",
+      "summary": "MMM OOO",
+      "start": "2026-07-10T00:00:00+00:00",
+      "end": "2026-07-11",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "6po0pm5asvr7lao7r4s4vapkk6@google.com",
+      "summary": "Dishwashing - Madeline",
+      "start": "2026-07-13T00:00:00+00:00",
+      "end": "2026-07-14",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "4bb8lcj0h8khifvdbsr8q5tok9@google.com",
+      "summary": "MCP Subgroup - Assemblies",
+      "start": "2026-07-13T15:00:00-05:00",
+      "end": "2026-07-13T16:00:00-05:00",
+      "location": "Silverman 3-626",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "851t40rlmmeepocf2sje3mlsnc@google.com",
+      "summary": "MMM OOO",
+      "start": "2026-07-14T00:00:00+00:00",
+      "end": "2026-07-15",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "26k3qarb75sf79r8s225mqnm9g@google.com",
+      "summary": "Group Meeting - Pris",
+      "start": "2026-07-15T14:00:00-05:00",
+      "end": "2026-07-15T15:00:00-05:00",
+      "location": "Silverman 4-510",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "7k04r0vk6q2967jkc3qvbr8hto@google.com",
+      "summary": "DMREF Outreach (PW, LN, DRV)",
+      "start": "2026-07-20T00:00:00+00:00",
+      "end": "2026-07-22",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "1hrppskrs8f2d9c8d27go6e2hp@google.com",
+      "summary": "Dishwashing - Matthew",
+      "start": "2026-07-20T00:00:00+00:00",
+      "end": "2026-07-21",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "e9g4ar0ej61pkfi4pcu3e3jlso@google.com",
+      "summary": "DMREF Outreach",
+      "start": "2026-07-20T00:00:00+00:00",
+      "end": "2026-07-22",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "040000008200E00074C5B7101A82E0080000000067759FE493E7DC01000000000000000010000000A3E4986FEB71314884577BA15E3B805D",
+      "summary": "RET - Intro to SynBio, Lunch & Poster Pageant",
+      "start": "2026-07-20T17:00:00+00:00",
+      "end": "2026-07-20T18:30:00+00:00",
+      "location": "TBD",
+      "description": "Intro to SynBio and lunch with 8 RET teachers\nPoster pageant",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "E5B1D41C-FB07-404D-9AA7-9024186DFE68",
+      "summary": "LISA'S BIRTHDAY",
+      "start": "2026-07-24T00:00:00+00:00",
+      "end": "2026-07-25",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "1iosrr9rrqsm8sbu2vkgmu0pmd@google.com",
+      "summary": "Lisa Bday!",
+      "start": "2026-07-24T00:00:00+00:00",
+      "end": "2026-07-25",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "56F65B5B-8928-4035-A3AB-E574349246F9",
+      "summary": "Prom",
+      "start": "2026-07-26T00:00:00+00:00",
+      "end": "2026-07-26T03:00:00+00:00",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "1u6i79b3kmjlja546k7r4g3vru@google.com",
+      "summary": "Dishwashing - Feipeng",
+      "start": "2026-07-27T00:00:00+00:00",
+      "end": "2026-07-28",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "4bb8lcj0h8khifvdbsr8q5tok9@google.com",
+      "summary": "MCP Subgroup - Assemblies",
+      "start": "2026-07-27T15:00:00-05:00",
+      "end": "2026-07-27T16:00:00-05:00",
+      "location": "Silverman 3-626",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "0odgt45bq2s65rtgeeequ68ke5@google.com",
+      "summary": "Lab Retreat",
+      "start": "2026-07-28T00:00:00+00:00",
+      "end": "2026-07-31",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "040000008200E00074C5B7101A82E00800000000FB92DBE0319CDC010000000000000000100000002AF98F6B25D82F4EAAC72C02B458C0E3",
+      "summary": "Seedling presentation--Prof. Yang",
+      "start": "2026-07-29T16:00:00+00:00",
+      "end": "2026-07-29T17:00:00+00:00",
+      "location": "Zoom Conference; https://mit.zoom.us/j/94641532983?from=addon",
+      "description": "[https://st2.zoom.us/static/6.3.52789/image/new/ZoomLogo_110_25.png]<http://zoom.us/>\nHi there,\nTerence Ryan is inviting you to a scheduled Zoom meeting.\nJoin Zoom Meeting<https://mit.zoom.us/j/94641532983?from=addon>\nPhone one-tap:\nUS: +16465588656,,94641532983#<tel:+16465588656,,94641532983> or +16699006833,,94641532983#<tel:+16699006833,,94641532983>\nMeeting URL:\nhttps://mit.zoom.us/j/94641532983?from=addon\nJoin by Telephone\nFor higher quality, dial a number based on your current location.\nDial:\n\nUS: +1 646 558 8656 or +1 669 900 6833\nMexico: +52 554 161 4288\nEstonia: +372 880 1188 or +372 660 1699\nPeru: +51 1 730 6777 or +51 1 707 5788\nSweden: +46 850 539 728 or +46 8 4468 2488\nArgentina: +54 112 040 0447 or +54 341 512 2188 or +54 343 414 5986\nItaly: +39 069 480 6488 or +39 020 066 7245\nCanada: +1 647 558 0588\nLuxembourg: +352 2786 4277 or +352 2786 1188\nCzech Republic: +420 5 3889 0161 or +420 2 2888 2388\nNetherlands: +31 20 794 0854 or +31 20 241 0288\nFrance: +33 1 7037 2246 or +33 1 7037 9729 or +33 1 8699 5831\nPoland: +48 22 398 7356 or +48 22 307 3488\nSlovakia: +421 233 418 515 or +421 233 056 888\nBelgium: +32 2 588 4188 or +32 2 290 9360\nMalta: +356 2778 1288 or +356 2776 1777\nDominican Republic: +1 829 956 2188 or +1 829 947 9220\nPanama: +507 833 9588\nGreece: +30 231 118 0599 or +30 211 198 4488\nRomania: +40 37 170 0418 or +40 31 630 1088\nBrazil: +55 21 3958 7888 or +55 11 4680 6788\nLithuania: +370 5214 1488 or +370 3799 9260\nCyprus: +357 2 505 4777 or +357 2 200 0888\nFinland: +358 9 4245 1488 or +358 3 4109 2129\nHungary: +36 1 701 0488 or +36 1 408 8456\nSlovenia: +386 1888 8788 or +386 1600 3102\nAustralia: +61 8 7150 1149 or +61 2 8015 6011\nJapan: +81 3 4579 0545 or +81 3 4578 1488\nChile: +56 41 256 0288 or +56 23 210 9066\nDenmark: +45 89 88 37 88 or +45 32 71 31 57\nNew Zealand: +64 9 884 6780 or +64 4 886 0026\nGeorgia: +995 7067 77954 or +995 3224 73988\nPortugal: +351 308 810 988 or +351 308 804 188\nIsrael: +972 3 978 6688\nSouth Africa: +27 87 551 7702\nSpain: +34 917 873 431 or +34 84 368 5025\nCroatia: +385 1777 6333 or +385 1300 0988\nSingapore: +65 3165 1065 or +65 3158 7288\nSwitzerland: +41 43 210 70 42 or +41 31 528 09 88\nLatvia: +371 6303 1888 or +371 6303 1808\nGermany: +49 69 7104 9922\nUnited Kingdom: +44 203 481 5237 or +44 131 460 1196\nPuerto Rico: +1 787 966 7727 or +1 787 945 1488\nIreland: +353 6 163 9031 or +353 1 653 3895\nEl Salvador: +503 2136 6444 or +503 2113 9088\nAustria: +43 72 011 5988 or +43 670 309 0165\nBulgaria: +359 3 257 1633 or +359 2 492 5688\nMeeting ID:\n946 4153 2983\nInternational numbers<https://mit.zoom.us/u/abrh39Ne1n>\nJoin from an H.323/SIP room system\nH.323:\n144.195.19.161 (US West)\n206.247.11.121 (US East)\n115.114.131.7 (India Mumbai)\n115.114.115.7 (India Hyderabad)\n159.124.15.191 (Amsterdam Netherlands)\n159.124.47.249 (Germany)\n159.124.104.213 (Australia Sydney)\n159.124.74.212 (Australia Melbourne)\n170.114.180.219 (Singapore)\n64.211.144.160 (Brazil)\n159.124.132.243 (Mexico)\n159.124.168.213 (Canada Toronto)\n159.124.196.25 (Canada Vancouver)\n170.114.194.163 (Japan Tokyo)\n147.124.100.25 (Japan Osaka)\nMeeting ID:\n946 4153 2983\nSIP:\n94641532983@zoomcrc.com",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "26k3qarb75sf79r8s225mqnm9g@google.com",
+      "summary": "Group Meeting - Maddie",
+      "start": "2026-07-29T14:00:00-05:00",
+      "end": "2026-07-29T15:00:00-05:00",
+      "location": "Silverman 4-510",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "040000008200E00074C5B7101A82E00800000000549814D4D0AFDC01000000000000000010000000F16FD1EA6F071049AD5E69E4C2ABD84D",
+      "summary": "RET/CSB Meet-and-Greet",
+      "start": "2026-07-29T19:30:00+00:00",
+      "end": "2026-07-29T20:30:00+00:00",
+      "location": "TBD",
+      "description": "Come meet this year's RET cohort - please invite your lab mates!\n\nDessert and drinks will be provided",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "040000008200E00074C5B7101A82E008000000004BFC81D68EE8DC0100000000000000001000000091C611C7538BD94081B6FF4B3F91E277",
+      "summary": "CSB/RET Teacher Presentations & Lunch",
+      "start": "2026-07-31T17:00:00+00:00",
+      "end": "2026-07-31T19:00:00+00:00",
+      "location": "TBD",
+      "description": "Pizza will be served!",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "0d7phgjq6efsmbn2ke0nqcqd7o@google.com",
+      "summary": "Daniel return to office",
+      "start": "2026-08-03T00:00:00+00:00",
+      "end": "2026-08-04",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "13ncrulsqiaur2mlthq28n7l1b@google.com",
+      "summary": "Dishwashing - Maddie",
+      "start": "2026-08-03T00:00:00+00:00",
+      "end": "2026-08-04",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "4bb8lcj0h8khifvdbsr8q5tok9@google.com",
+      "summary": "MCP Subgroup - Pathways (no DTE)",
+      "start": "2026-08-03T15:00:00-05:00",
+      "end": "2026-08-03T16:00:00-05:00",
+      "location": "Silverman 3-626",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "52b9l8co70kp1hsfomsidk0ut9@google.com",
+      "summary": "DCA ooo AM (Dentist)",
+      "start": "2026-08-04T00:00:00+00:00",
+      "end": "2026-08-05",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "26k3qarb75sf79r8s225mqnm9g@google.com",
+      "summary": "Group Meeting - Dhanvi",
+      "start": "2026-08-05T14:00:00-05:00",
+      "end": "2026-08-05T15:00:00-05:00",
+      "location": "",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "E68D6995-1D43-4CF5-8D03-DFA1E355BB35",
+      "summary": "Lucy OOO",
+      "start": "2026-08-06T00:00:00+00:00",
+      "end": "2026-08-10",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "65jovan90pg63fprq2f1ncqcsp@google.com",
+      "summary": "Dishwashing - Annie",
+      "start": "2026-08-10T00:00:00+00:00",
+      "end": "2026-08-11",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "4bb8lcj0h8khifvdbsr8q5tok9@google.com",
+      "summary": "MCP Subgroup - Assemblies (no DTE)",
+      "start": "2026-08-10T15:00:00-05:00",
+      "end": "2026-08-10T16:00:00-05:00",
+      "location": "Silverman 3-626",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "vueqe1a97beshircrrgbue4728@google.com",
+      "summary": "Stay at Inn at MeadowCroft",
+      "start": "2026-08-11T00:00:00+00:00",
+      "end": "2026-08-13",
+      "location": "Inn at MeadowCroft, Swoope",
+      "description": "To see detailed information for automatically created events like this one, use the official Google Calendar app. https://g.co/calendar\n\nThis event was created from an email you received in Gmail. https://mail.google.com/mail?extsrc=cal&plid=ACUX6DOUfV_BOF6_u74NN9SnWNH6penWGUmkizQ",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "26k3qarb75sf79r8s225mqnm9g@google.com",
+      "summary": "Group Meeting - Jake",
+      "start": "2026-08-12T14:00:00-05:00",
+      "end": "2026-08-12T15:00:00-05:00",
+      "location": "Silverman 4-510",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "2hj5i4k5nuescavgirj32qcfa8@google.com",
+      "summary": "Materials Subgroup",
+      "start": "2026-08-13T13:00:00-05:00",
+      "end": "2026-08-13T14:00:00-05:00",
+      "location": "Silverman 3-623",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "9A129F60-8782-468D-9B41-CCFE7C24C6E4",
+      "summary": "LTS in office",
+      "start": "2026-08-15T00:00:00+00:00",
+      "end": "2026-08-16",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "006C2982-5ACD-4E29-A256-BB90B092E567",
+      "summary": "LTS in office",
+      "start": "2026-08-16T00:00:00+00:00",
+      "end": "2026-08-17",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "6f4ep9g9gg8i7i44n2jto9pcn0@google.com",
+      "summary": "Dishwashing - Pris",
+      "start": "2026-08-17T00:00:00+00:00",
+      "end": "2026-08-18",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "4bb8lcj0h8khifvdbsr8q5tok9@google.com",
+      "summary": "MCP Subgroup - Pathways",
+      "start": "2026-08-17T15:00:00-05:00",
+      "end": "2026-08-17T16:00:00-05:00",
+      "location": "Silverman 3-626",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "26k3qarb75sf79r8s225mqnm9g@google.com",
+      "summary": "Group Meeting - Matthew",
+      "start": "2026-08-19T14:00:00-05:00",
+      "end": "2026-08-19T15:00:00-05:00",
+      "location": "Silverman 4-510",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "352dsi29o7q5d9o5vlnecceurc@google.com",
+      "summary": "CPR internship ends",
+      "start": "2026-08-21T00:00:00+00:00",
+      "end": "2026-08-22",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "31CED61B-EDEE-4940-9E07-EC2E8FB86407",
+      "summary": "ACS",
+      "start": "2026-08-23T00:00:00+00:00",
+      "end": "2026-08-28",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "3icb0fk0cf9the9ovhn0tnad1k@google.com",
+      "summary": "Dishwashing - Roger",
+      "start": "2026-08-24T00:00:00+00:00",
+      "end": "2026-08-25",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "3991vep1tf38ibro233monrlsg@google.com",
+      "summary": "LN OOO",
+      "start": "2026-08-24T00:00:00+00:00",
+      "end": "2026-08-29",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "2fapmtkq8annolpmroehbli8cn@google.com",
+      "summary": "DCA out AM (Doc's app)",
+      "start": "2026-08-24T00:00:00+00:00",
+      "end": "2026-08-25",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "F61ADF75-F865-4707-A375-6092C2E8B2BF",
+      "summary": "BW’s COLL Session",
+      "start": "2026-08-24T19:00:00+00:00",
+      "end": "2026-08-24T23:00:00+00:00",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "4bb8lcj0h8khifvdbsr8q5tok9@google.com",
+      "summary": "MCP Subgroup - Assemblies ( no DTE)",
+      "start": "2026-08-24T15:00:00-05:00",
+      "end": "2026-08-24T16:00:00-05:00",
+      "location": "Silverman 3-626",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "26k3qarb75sf79r8s225mqnm9g@google.com",
+      "summary": "Group Meeting - Madeline",
+      "start": "2026-08-26T14:00:00-05:00",
+      "end": "2026-08-26T15:00:00-05:00",
+      "location": "",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "1gg8nag12r7s0negp1nrrkvorc@google.com",
+      "summary": "Daniel's PhD Defense",
+      "start": "2026-08-28T17:00:00+00:00",
+      "end": "2026-08-28T19:00:00+00:00",
+      "location": "Silverman Hall 3-510",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "qsemfoi1qkeohrdbn9didf6m0s@google.com",
+      "summary": "Om Sree’s Birthday",
+      "start": "2026-08-30T00:00:00+00:00",
+      "end": "2026-08-31",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "03ldbr25nb4v0u2i9aek0oskdm@google.com",
+      "summary": "DCA's last day",
+      "start": "2026-08-31T00:00:00+00:00",
+      "end": "2026-09-01",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "7ebcmgmhjkv2651sh2rdph3fjv@google.com",
+      "summary": "Dishwashing - Lisa",
+      "start": "2026-08-31T00:00:00+00:00",
+      "end": "2026-09-01",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "4bb8lcj0h8khifvdbsr8q5tok9@google.com",
+      "summary": "MCP Subgroup - Pathways (no DTE)",
+      "start": "2026-08-31T15:00:00-05:00",
+      "end": "2026-08-31T16:00:00-05:00",
+      "location": "Silverman 3-626",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "26k3qarb75sf79r8s225mqnm9g@google.com",
+      "summary": "Group Meeting - Feipeng",
+      "start": "2026-09-02T14:00:00-05:00",
+      "end": "2026-09-02T15:00:00-05:00",
+      "location": "",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "6hfrtupufb9hroii4s9v5asdlv@google.com",
+      "summary": "Pris' Birthday!",
+      "start": "2026-09-03T00:00:00+00:00",
+      "end": "2026-09-04",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "4i218aobcmiiv9cl0s0ksm1085@google.com",
+      "summary": "Dishwashing - Dhanvi",
+      "start": "2026-09-07T00:00:00+00:00",
+      "end": "2026-09-08",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "7g2vv0k2ieha21gqp2cbsegch3@google.com",
+      "summary": "University Holiday",
+      "start": "2026-09-07T00:00:00+00:00",
+      "end": "2026-09-08",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "4bb8lcj0h8khifvdbsr8q5tok9@google.com",
+      "summary": "MCP Subgroup - (assemblies)",
+      "start": "2026-09-07T15:00:00-05:00",
+      "end": "2026-09-07T16:00:00-05:00",
+      "location": "Silverman 3-626",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "26k3qarb75sf79r8s225mqnm9g@google.com",
+      "summary": "Group Meeting - Annie",
+      "start": "2026-09-09T14:00:00-05:00",
+      "end": "2026-09-09T15:00:00-05:00",
+      "location": "",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "5583quli94vov4fqak1iegj32k@google.com",
+      "summary": "Dishwashing - Madeline",
+      "start": "2026-09-14T00:00:00+00:00",
+      "end": "2026-09-15",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "4bb8lcj0h8khifvdbsr8q5tok9@google.com",
+      "summary": "MCP Subgroup - Pathways",
+      "start": "2026-09-14T15:00:00-05:00",
+      "end": "2026-09-14T16:00:00-05:00",
+      "location": "Silverman 3-626",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "26k3qarb75sf79r8s225mqnm9g@google.com",
+      "summary": "Group Meeting - Roger",
+      "start": "2026-09-16T14:00:00-05:00",
+      "end": "2026-09-16T15:00:00-05:00",
+      "location": "",
+      "description": "Zoom (if needed - please tell in advance): <a href=\"https://northwestern.zoom.us/j/7152828205\" target=\"_blank\"><u><u>https://northwestern.zoom.us/j/7152828205</u></u></a>",
+      "color": "#7ab7ff"
+    },
+    {
+      "uid": "6rs5t769tvdc42obs1c4nkdstc@google.com",
+      "summary": "Dishwashing - Matthew",
+      "start": "2026-09-21T00:00:00+00:00",
+      "end": "2026-09-22",
+      "location": "",
+      "description": "",
+      "color": "#7ab7ff"
+    }
+  ]
+}
